@@ -1,0 +1,18 @@
+# macOS files
+.DS_Store
+
+# IDEA files
+.idea
+*.iml
+!.idea/runConfigurations
+!.idea/runConfigurations/*
+
+# VS Code
+.vscode
+.project
+
+# Node
+node_modules
+
+.npmrc
+*.log
