@@ -1,2 +1,0 @@
-# truschkin.dev
-portfolio?

@@ -1,0 +1,15 @@
+{
+  "title": "truschkin.dev",
+  "url": "https://truschkin.dev/",
+  "description": "Frontend-dev exploring the world.",
+  "feed": {
+    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://truschkin.dev/"
+  },
+  "author": {
+    "name": "Paul Truschkin",
+    "email": "paul@truschkin.dev"
+  }
+}
