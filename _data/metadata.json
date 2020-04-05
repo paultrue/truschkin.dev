@@ -3,7 +3,7 @@
   "url": "https://truschkin.dev/",
   "description": "Frontend-dev exploring the world.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "I am writing about my (un)successful projects.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://truschkin.dev/"
