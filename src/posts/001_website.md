@@ -30,7 +30,7 @@ Some years ago I played around with [hexo](https://hexo.io/) and really enjoyed 
 #### 4. Adjusting build settings in netlify
 11ty generates static HTML-files out of all markdown files. All you have to do is running the command `eleventy` in the commandline. It will generate all files into the directory `/_site`. The last step I had to configurate was to tell netlify to execute that command and point it to the target directory. 
 
-![netlify build setting](/img/netlify_build.png "netlify build setting")
+![netlify build setting](/assets/img/netlify_build.png "netlify build setting")
 
 #### What's next?
 Now I can start to apply own styling, adjust strucutre of the website, add favicon, ... and of course start with other side projects I have on my mind 👨‍💻. 
