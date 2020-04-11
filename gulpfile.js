@@ -5,7 +5,7 @@ const cssnano = require("gulp-cssnano");
 
 gulp.task("css", function() {
   return gulp
-    .src("./src/assets/scss/main.scss")
+    .src("./src/assets/scss/index.scss")
     .pipe(sass())
     .pipe(autoprefixer())
     .pipe(cssnano())
