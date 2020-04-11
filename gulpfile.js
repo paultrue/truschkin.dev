@@ -14,7 +14,7 @@ gulp.task("css", function() {
 });
 
 gulp.task("watch", function() {
-  gulp.watch("./assets/scss/**/*.scss", gulp.parallel("css"));
+  gulp.watch("./src/assets/scss/**/*.scss", gulp.parallel("css"));
 });
 
 gulp.task("build", gulp.parallel("css"));
