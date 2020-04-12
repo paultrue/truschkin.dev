@@ -24,13 +24,13 @@ To achieve the last step I went back to namecheap.com and pasted every netlify n
 Now, like most of my coworkers, I am in love with netlify as well 🤷‍♂️.
 
 #### 3. Choosing a framework for this project
-Finding a base for the website was a though decision. Especially because I tent to fall in$$to a rabbithole of exploring many possible solutions. It had to be simple to setup and easy to use. Something lightweight and well backed by the community. No complex backend- and database-setup. A static site generator was the obvious choice for me.
+Finding a base for the website was a though decision. Especially because I tent to fall into a rabbithole of exploring many possible solutions. It had to be simple to setup and easy to use. Something lightweight and well backed by the community. No complex backend- and database-setup. A static site generator was the obvious choice for me.
 Some years ago I played around with [hexo](https://hexo.io/) and really enjoyed it. So I did some research on how the topic of static site generator has evolved. After reading through a couple resources [this comparison](https://snipcart.com/blog/choose-best-static-site-generator) made me finally pick [11ty](https://www.11ty.dev/). It has great documentation, helpful tutorials for beginners and offers a bunch of ready to use starter projects. I went for the [base-blog-project](https://github.com/11ty/eleventy-base-blog). After removing some boilerplate I was ready to write my first article.
 
 #### 4. Adjusting build settings in netlify
 11ty generates static HTML-files out of all markdown files. All you have to do is running the command `eleventy` in the commandline. It will generate all files into the directory you define in your 11ty-configs inside `eleventy.js`. I run that command with `yarn build` and generate the whole website into `/dist`. The last step I had to configurate was to tell netlify to execute that command and point it to the target directory. 
 
-![netlify build setting](/assets/img/001_netlify_build.png "netlify build setting")
+![netlify build setting](/assets/img/001_netlify_build.png "netlify build setting")*Build settings on netlify for this website*
 
 #### What's next?
 Now I can start to apply own styling, adjust strucutre of the website, add favicon, ... and of course start with other side projects I have on my mind 👨‍💻. 

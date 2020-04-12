@@ -2,7 +2,7 @@
   font-family: sans-serif;
   text-decoration: none;
   font-style: normal;
-  margin-left: .1em;
+  margin-left: 0.1em;
 }
 
 a[href].direct-link,
@@ -14,13 +14,13 @@ a[href].direct-link:focus,
 a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
-  color: #aaa;
+  color: $color-disabled;
 }
 
 a[href] {
-  color: var(--blue);
-}
+  color: $color-primary;
 
-a[href]:visited {
-  color: var(--navy);
+  &:hover {
+    color: $color-secondary;
+  }
 }

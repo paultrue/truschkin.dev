@@ -1,26 +1,28 @@
+.post,
 .postlist {
-  list-style: none;
-  padding: 0;
+  margin: 0 auto;
+  margin-top: 64px;
+  max-width: 80ch;
+}
+
+.post {
+  .post-content {
+    font-size: $font-size-4;
+  }
 }
 
 .postlist-item {
-  font-size: 1.1875em; /* 19px /16 */
-  font-family: $font-secondary;;
+  font-size: $font-size-1;
+  font-family: $font-secondary;
 
   .postlist-date {
-    color: var(--darkgray);
-    font-size: 0.8125em; /* 13px /16 */
-    word-spacing: -0.5px;
+    color: $color-disabled;
+    font-family: $font-primary;
+    font-size: $font-size-6;
   }
 
   .postlist-link {
-    display: inline-block;
-    padding: 0.25em 0.1875em; /* 4px 3px /16 */
-  }
-
-  &.postlist-item-active {
-    .postlist-link {
-      font-weight: bold;
-    }
+    display: block;
+    text-decoration-thickness: 3px;
   }
 }

@@ -9,11 +9,13 @@
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
   <body>
-    <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+    <header class="header">
+      <div class="logo">
+        <a href="{{ '/' | url }}">{{ metadata.title }}</a>
+      </div>
     </header>
 
-    <main class="content">
+    <main class="main">
       {{ content | safe }}
     </main>
   </body>
