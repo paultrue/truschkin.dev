@@ -14,13 +14,14 @@ body {
 }
 
 .main {
-  padding: 32px 16px;
+  padding: 32px 16px 128px 16px;
 }
 
 code {
   background: $background-color-code;
   color: $color-code;
-  padding: 1px 5px;
+  font-size: $font-size-6;
+  padding: 2px 5px;
   border-radius: 2px;
 }
 
@@ -29,6 +30,17 @@ em {
   display: block;
   font-size: $font-size-7;
   color: $color-disabled;
+}
+
+blockquote {
+  padding: 0 10px;
+  font-style: italic;
+  border-left: 4px solid $color-secondary;
+  color: $color-disabled;
+}
+
+li {
+  margin-bottom: 1rem;
 }
 
 img {

@@ -1,16 +1,31 @@
 h1 {
   font-size: $font-size-1;
   font-family: $font-secondary;
+  line-height: 48px;
 }
 
 h2 {
   font-size: $font-size-2;
+  line-height: 36px;
 }
 
 h3 {
   font-size: $font-size-3;
+  line-height: 33px;
 }
 
-h4 {
+h4,
+p {
   font-size: $font-size-4;
+  line-height: 30px;
+}
+
+h5 {
+  font-size: $font-size-5;
+  line-height: 27px;
+}
+
+h6 {
+  font-size: $font-size-6;
+  line-height: 24px;
 }

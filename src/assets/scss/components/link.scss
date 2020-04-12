@@ -19,6 +19,8 @@ a[href].direct-link:focus:visited,
 
 a[href] {
   color: $color-primary;
+  text-decoration-color: $color-secondary;
+  text-decoration-thickness: 2px;
 
   &:hover {
     color: $color-secondary;
