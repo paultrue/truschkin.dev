@@ -15,6 +15,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
   eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
+  eleventyConfig.addPassthroughCopy("./src/assets/font");
   eleventyConfig.addPassthroughCopy("./src/assets/img");
   eleventyConfig.addPassthroughCopy("./src/assets/css");
 
