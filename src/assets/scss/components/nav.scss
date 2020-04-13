@@ -1,22 +1,35 @@
 .header {
   position: sticky;
   top: 0;
-  padding: 16px 16px 0 16px;
+  padding: 8px 16px 0 16px;
   background: $background-color;
 }
 
-.logo {
+.header-content {
   max-width: 80ch;
   margin: 0 auto;
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: $font-size-6;
   border-bottom: 3px solid $border-color;
 
-  a {
+  .logo {
     font-family: $font-secondary;
     text-decoration: none;
 
     &:hover {
       color: $color-secondary;
+    }
+  }
+
+  .icon-fill {
+    height: 24px;
+    cursor: pointer;
+
+    &:hover path {
+      fill: $color-secondary;
     }
   }
 }

@@ -12,8 +12,8 @@ However, I never stopped observing how other developers tackled the challenge of
 
 Even though the talk was very inspiring, I did not start right away. Two more things had to happen: 
 
-1. New coworkers joined. Some of them were had achieved quite a lot in the dev-community. They didn't stop to improve themselves, despite the fear of failing. I admired their dedication and as a result my own motivation grew. Especially during talks with [@mirjam_diala](https://twitter.com/mirjam_diala) I recieved a lot of insights on how one person can achieve a lot of great things by staying motivated and believing in themself.
-2. One of my peer feedbacks convinced me to finally start. During that feedback the [coworker](https://twitter.com/_coolcut) mentioned that he is working on his own website. That website will be a place where he showcases his side projects, while also documenting his learings during the process. His goal is not to gain fame. Instead he just wants to play around with small ideas and persist those on his website.
+1. New coworkers joined. Some of them had achieved quite a lot in the dev-community. They didn't stop to improve themselves, despite the fear of failing. I admired their dedication and as a result my own motivation grew. Especially during talks with [@mirjam_diala](https://twitter.com/mirjam_diala), who switched really successfully to programming a couple years ago. During those I gained a lot of insights how publishing own projects and contributing to projects of others can boost your motivation and improve your skills.
+2. During one of my peer feedbacks [the feedback-giver (Jan)](https://twitter.com/_coolcut) mentioned that he is working on his own website. That website will be a place where he showcases his side projects, while also documenting his learings during the process. His goal is not to necessarily gain fame. Primarily he wants to play around with some ideas and persist those on his website.
 
 And here I am, building the foundation of my own "simple/weird/dumb projects" diary. 
 <br />
@@ -21,7 +21,7 @@ And here I am, building the foundation of my own "simple/weird/dumb projects" di
 ### What will I write about?
 This website will be kind of a diary for my dev-related activities. I will describe how I came up with an idea for a side project, how I approached things, which problems I struggled with and so on.
 
-It comes in handy that this website is also one of those side project. So I will write about the progress of it, too. Can’t stress enough, that the idea to document my journey is directly stolen from my coworker Jan ([fruechtl.me](https://fruechtl.me/))!
+It comes in handy that this website is also one of those side project. So I will write about the progress of it, too. Can’t stress enough, that the idea to document my journey is directly stolen from my [coworkers website (fruechtl.me)](https://fruechtl.me/)!
 
 Let’s start the journey 🤠.
 

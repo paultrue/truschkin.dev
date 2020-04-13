@@ -28,7 +28,7 @@ Finding a base for the website was a though decision. Especially because I tent 
 Some years ago I played around with [hexo](https://hexo.io/) and really enjoyed it. So I did some research on how the topic of static site generator has evolved. After reading through a couple resources [this comparison](https://snipcart.com/blog/choose-best-static-site-generator) made me finally pick [11ty](https://www.11ty.dev/). It has great documentation, helpful tutorials for beginners and offers a bunch of ready to use starter projects. I went for the [base-blog-project](https://github.com/11ty/eleventy-base-blog). After removing some boilerplate I was ready to write my first article.
 
 ### 4. Adjusting build settings in netlify
-11ty generates static HTML-files out of all markdown files. All you have to do is running the command `eleventy` in the commandline. It will generate all files into the directory you define in your 11ty-configs inside `eleventy.js`. I run that command with `yarn build` and generate the whole website into `/dist`. The last step I had to configurate was to tell netlify to execute that command and point it to the target directory. 
+11ty generates static HTML-files out of all markdown files. All you have to do is running the command `eleventy` in the commandline. It will generate all files into the directory you define in your 11ty-configs inside `eleventy.js`. I run that command with `yarn build` and generate the whole website into `/dist`. I configured my websites build-settings on netlify accordingly.
 
 ![netlify build setting](/assets/img/001_netlify_build.png "netlify build setting")*Build settings on netlify for this website*
 
