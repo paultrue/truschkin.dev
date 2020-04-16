@@ -9,7 +9,7 @@ body {
   color: $color-primary;
   background-color: $background-color;
   font-family: $font-primary;
-  font-weight: 400;
+  font-weight: $font-weight-regular;
   font-size: 16px;
 }
 
@@ -41,6 +41,12 @@ blockquote {
 
 li {
   margin-bottom: 1rem;
+}
+
+li::marker {
+  color: $color-secondary;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-2;
 }
 
 img {
